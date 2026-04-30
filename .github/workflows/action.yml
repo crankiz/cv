@@ -13,7 +13,7 @@ jobs:
       - uses: rojopolis/spellcheck-github-actions@v0
         name: Spellcheck
         with:
-          source_files: README.md
+          source_files: docs/cv.md
           task_name: Markdown
           
       - uses: baileyjm02/markdown-to-pdf@v1
